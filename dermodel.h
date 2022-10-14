@@ -1,5 +1,6 @@
 #ifndef DERMODEL_H
 #define DERMODEL_H
+#include "basemodel.h"
 class Model1 : public Model 
 {
 	public:
