@@ -1,6 +1,7 @@
 #ifndef BASEMODEL_H
 #define BASEMODEL_H
 class Model;
+class Controller_base;
 class Model 
 {
 	public:

@@ -110,7 +110,7 @@ int main()
 	view_sq.register_view(&c);
 	view_sq.get_model(&m);
 	
-	m.change(20);
+	m.change(15);
 	
 	
 	

@@ -21,4 +21,9 @@ ptr_model_ = ptr_model;
 void View_sq:: register_view(Controller_base* ptr_c)
 {
 ptr_c->add(this);
+
 }
+void View_sq::deregister_view(Controller_base* ptr_c)
+{
+	ptr_c->remove(this);
+};
